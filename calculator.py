@@ -11,3 +11,15 @@ def divide(x, y):
     if y == 0:
         return "Error: Cannot divide by zero."
     return x / y
+
+def main():
+    print("Simple Calculator")
+    print("Select operation:")
+    print("1. Add")
+    print("2. Subtract")
+    print("3. Multiply")
+    print("4. Divide")
+
+    choice = input("Enter choice (1/2/3/4): ")
+
+
